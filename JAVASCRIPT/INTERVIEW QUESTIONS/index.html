@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+       <h3> INTERVIEW QUESTION ON BEHALF OF JAVASCRIPT </h3>
+
+    <h3> Q1) Difference between “ == “ and “ === “ operators?</h3>
+    <p>
+        The `==` operator compares values for equality after converting both values to a common type (type coercion). <br>
+        The `===` operator compares values for equality without doing type conversion (strict equality).
+    </p>
+
+    <h3> Q2) What are the differences between var, let and const? </h3>
+    <p>
+        - `var` is function-scoped and can be re-declared and updated. <br>
+        - `let` is block-scoped and can be updated but not re-declared within the same scope. <br>
+        - `const` is block-scoped and cannot be updated or re-declared; it must be initialized during declaration.
+    </p>
+    
+    <h3>Q3) What is execution context?</h3>
+    <p>
+        Execution context is an abstract concept that holds information about the environment within which the current code is being executed. It includes the scope chain, `this` value, and the variable object. There are three types of execution contexts in JavaScript: global execution context, function execution context, and eval execution context.
+    </p>
+
+    <h3>Q4) What is creation phase and execution phase?</h3>
+    <p>
+        The creation phase is the first phase of the execution context lifecycle. During this phase, the JavaScript engine allocates memory for variables and functions, and sets up the scope chain. The execution phase is the second phase, where the JavaScript engine executes the code line by line, assigns values to variables, and executes functions.
+    </p>
+    
+    <h3>Q5) What is hoisting? </h3>
+    <p>
+        Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their containing scope during the compile phase. This means that you can use functions and variables before they are declared in the code. However, only the declarations are hoisted, not the initializations.
+    </p>
+    
+    <h3>Q6) Difference between undefined vs not defined vs NaN?</h3>
+    <p>
+        - `undefined` means a variable has been declared but has not yet been assigned a value. <br>
+        - `not defined` means a variable has not been declared in the current scope. <br>
+        - `NaN` stands for "Not-a-Number" and is a value that represents a computational error resulting from an operation that cannot produce a valid number.
+    </p>
+    
+    <h3>Q7) How many operators do we have in JS ?     </h3>
+    <p>
+        JavaScript has various types of operators, including: <br>
+        - Arithmetic operators: +, -, *, /, %, ++, -- <br>
+        - Comparison operators: ==, ===, !=, !==, >, >=, <, <=  <br>
+        - Logical operators: &&, ||, ! <br>
+        - Assignment operators: =, +=, -=, *=, /=, %= <br>
+        - Bitwise operators: &, |, ^, ~, <<, >>, >>>  <br>
+        - String operators: +, +=  <br>
+        - Conditional (ternary) operator: ?:  <br>
+        - Comma operator: , 
+    </p>
+
+    <h3>Q8) Explain Local Scope, Block Scope, Functional Scope and Scope Chain in javascript</h3>
+    <p>
+        - **Local Scope**: Variables declared within a function are in the local scope and can only be accessed within that function.  <br>
+        - **Block Scope**: Variables declared with `let` or `const` within a block (e.g., inside `{}`) are in block scope and can only be accessed within that block.  <br>
+        - **Functional Scope**: Variables declared with `var` are function-scoped, meaning they are accessible within the function they are declared in, regardless of block scope.  <br>
+        - **Scope Chain**: The scope chain is the hierarchy of scopes that JavaScript uses to resolve variable references. It starts from the current scope and moves up to the global scope.
+    </p>
+    
+</body>
+</html>
