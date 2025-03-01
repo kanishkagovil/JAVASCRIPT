@@ -34,7 +34,7 @@ console.log(lastName);
   
 const a=566;
 const c=889;
-const name="md imran alam";
+const name="kanishka govil";
 console.log(a);
 console.log(c);
 console.log(name);
